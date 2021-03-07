@@ -1,0 +1,90 @@
+.contactContent {
+    background: linear-gradient(115deg, $color-2 50%, transparent 100%);
+    min-height: $minHeight;
+    width: 100%;
+    min-height: 500px;
+    border-radius: $borderRadius;
+    position: relative;
+    overflow: hidden;
+
+    &:after {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: inherit;
+        background: url('../../media/header.jpg') no-repeat center/cover;
+        z-index: -1;
+    }
+
+    h3 {
+        position: absolute;
+        margin: 10% 32%;
+        font-family: $font-2;
+        font-size: 1.8rem;
+        color: $color-1;
+        text-transform: uppercase;
+    }
+
+    form {
+        position: absolute;
+        top: 25%;
+        left: 30%;
+        display: grid;
+
+        input,
+        textarea {
+            background: none;
+            border: none;
+            border-bottom: 1px solid $color-3;
+            width: 15rem;
+            font-size: 1.1rem;
+            font-family: $font-1;
+            margin-bottom: 1rem;
+            outline-style: none;
+        }
+
+        .inputMessage {
+            height: 6rem;
+            resize: none;
+
+            &::-webkit-scrollbar {
+                background-color: $color-4;
+                width: 7px;
+                box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            }
+        }
+
+        .inputSubmit {
+            font-size: 1.4rem;
+            cursor: pointer;
+            background: $color-2;
+            transition: .3s ease;
+
+            &:hover {
+                background: $color-4;
+                letter-spacing: .1rem;
+            }
+        }
+        .form-message {
+            margin-top: 2rem;
+            padding: 12px;
+            //opacity: 0;
+            transition: .2s ease;
+            font-size: 1.2rem;
+            color: $color-1;
+            border-radius: 4px;
+        }
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .contactContent {
+        h3 {
+            margin: 10% 20%;
+        }
+
+        form {
+            left: 16%;
+        }
+    }
+}

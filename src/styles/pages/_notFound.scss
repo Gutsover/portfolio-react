@@ -1,0 +1,25 @@
+.notFound {
+    @include verticalCenter;
+    height: 95vh;
+    max-width: 1200px;
+    background: url('../../media/404.jpg') no-repeat center/cover;
+    border-radius: $borderRadius;
+    text-align: center;
+  
+    h3 {
+      margin-bottom: 3rem;
+      font-size: 2rem;
+      color: $color-2;
+      text-shadow: 3px 3px 2px $color-5;
+    }
+    a {
+      padding: 1rem 2rem;
+      border-radius: $borderRadius;
+      background: $color-2;
+      transition: .2s;
+  
+      &:hover {
+        background: $color-4;
+      }
+    }
+  }
