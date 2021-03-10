@@ -8,7 +8,7 @@ import Quizz from "../media/project6.png";
 export const portfolioData = [
   {
     id: 1,
-    name: "Pôle Santé Travail, rapport d'activité",
+    name: "Pôle Santé Travail",
     languages: ["react", "css&javascript"],
     languagesIcons: ["fab fa-react", "fab fa-js", "fab fa-css3-alt"],
     source: "https://github.com/Gutsover/project-mama",
@@ -33,7 +33,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-vuejs", "fab fa-js", "fab fa-css3-alt"],
     source: "https://github.com/Gutsover/instagram-clone",
     info:
-      "Autodidacte, Les frameworks JS m'intéressent tout particulièrement. Je me forme donc à Vue.JS, trés demandé, accessible et simple à mettre en place, je me suis aussi penchée de près sur son propre framerwork : Quasar, en réalisant ce clone de l'interface \"Instagram\". Une fantastique découverte qui me pousse à vouloir continuer mes tests avec !",
+      "Autodidacte, Les frameworks JS m'intéressent tout particulièrement. Je me forme donc à Vue.JS, trés demandé, accessible et simple à mettre en place, je me suis aussi penchée de près sur sa propre bibliothèque : Quasar, en réalisant ce clone de l'interface \"Instagram\". Une fantastique découverte qui me pousse à vouloir continuer mes tests avec !",
     picture: Quasargram,
   },
   {
@@ -51,7 +51,7 @@ export const portfolioData = [
     name: "Portfolio",
     languages: ["react", "css&javascript"],
     languagesIcons: ["fab fa-react", "fab fa-js", "fab fa-css3-alt"],
-    source: "http://www.github.com",
+    source: "https://github.com/Gutsover/portfolio-react",
     info:
       "Ce portfolio à sa place dans ma modeste liste de projets. J'ai fait le choix de le réaliser avec React, outre la rapidité que cela offre au contenu, je n'aurais eu que rarement l'occasion de travailler avec ce langage et je souhaitais me remettre à jour. J'ai beaucoup apprécié travailler avec ce framework et souhaite y consacrer plus de temps.",
     picture: Portfolio,

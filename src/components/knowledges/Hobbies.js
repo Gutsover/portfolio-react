@@ -9,7 +9,7 @@ const Hobbies = () => {
                 <li className="hobby"><i className="fas fa-cookie-bite"></i> <span>Cuiniser</span></li>
                 <li className="hobby"><i className="fas fa-globe-americas"></i> <span>Voyager</span></li>
                 <li className="hobby"><i className="fas fa-book-reader"></i> <span>Lecture & écriture</span></li>
-                <li className="hobby"><i className="fas fa-school"></i> <span>Apprendre</span></li>
+                <li className="hobby"><i className="fas fa-fist-raised"></i> <span>Self-défense</span></li>
             </ul>
         </div>
     );

@@ -25,7 +25,7 @@
       font-family: $font-1;
 
       h1 {
-        font-size: 5rem;
+        font-size: 4.2rem;
         font-family: $font-3;
         color: $color-5;
         text-transform: uppercase;
@@ -34,9 +34,15 @@
 
       h2 {
         font-size: 2.5rem;
-        padding: 1.5rem 0 4rem;
+        padding: 1.5rem 0 1.5rem;
         color: $color-1;
         text-shadow: 1px 2px 1px $black;
+      }
+      h5 {
+        font-size: 1.4rem;
+        padding: .5rem 0 2rem;
+        color: $color-3;
+        font-family: $font-3;
       }
 
       .presentation {
@@ -45,6 +51,7 @@
         font-size: 1.2rem;
         color: $black;
         font-family: $font-3;
+        padding: 0 0 2rem;
 
         &:nth-child(3) {
           margin-bottom: 2rem;
@@ -74,13 +81,17 @@
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1001px) {
   .homeContent {
-    margin: 0 !important;
-
     .presentation {
       display: none;
     }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .homeContent {
+    margin: 0 !important;
   }
 }
 

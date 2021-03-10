@@ -6,7 +6,7 @@ const NotFound = () => {
         <div className="notFound">
             <div className="notFoundContent">
                 <h3>Désolé, cette page n'existe pas :-(</h3>
-                <NavLink exact to="/">
+                <NavLink exact to="/portfolio-react/">
                     <i className="fas fa-home"></i>
                     <span> Retour à l'accueil</span>
                 </NavLink>

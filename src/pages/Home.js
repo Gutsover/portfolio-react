@@ -1,6 +1,6 @@
 import React from "react";
 import Navigation from "../components/Navigation";
-import Pdf from "../media/mylene_vandaele_cv_maj_2021.pdf";
+import Pdf from "../media/CV_2021_MV.pdf";
 
 const Home = () => {
   return (
@@ -10,20 +10,26 @@ const Home = () => {
         <div className="content">
           <h1>Mylène Vandaële</h1>
           <h2>Intégratrice & développeuse front-end</h2>
+          <h5> <i class="fas fa-map-marker-alt"></i> Lille, France</h5>
           <div className="presentation">
             <p>
               <span>"</span> Issue d'une carrière fructueuse dans le commerce,
-              j'ai pris la route de la reconvertion en 2018.
+              j'ai pris la route de la reconversion en 2018.
             </p>
             <p>
               Au cours de mon apprentissage autodidacte et de mes formations
               diverses (WebForce3, Aston...) mon talent s'est révélé dans la
-              créativité, le désir de créer des interfaces ergonomiques,
+              créativité, le désir de réaliser des interfaces ergonomiques,
               fluides, intuitives à l'utilisateur. Html, Css, Sass, Javascript
               sont devenus mes meilleurs atouts.
             </p>
             <p>
-              Mon expertise en intégration n'a d'égal que ma curiosité pour tous
+              Par ailleurs, dès début avril 2021, je pourrais agrémenter mon cv de
+              ma future certification Opquast, témoignant mon souhait de
+              m'orienter vers une expertise UI/UX.
+            </p>
+            <p>
+              Mon savoir-faire en intégration n'a d'égal que ma curiosité pour tous
               les frameworks JS tel que Angular, Vue.JS ou encore React.
               <span>"</span>
             </p>

@@ -9,12 +9,12 @@ const OtherSkills = () => {
                     <li><i className="fas fa-check-square"></i> Github</li>
                     <li><i className="fas fa-check-square"></i> Anglais technique</li>
                     <li><i className="fas fa-check-square"></i> Méthodes agiles</li>
-                    <li><i className="fas fa-check-square"></i> SEO</li>
+                    <li><i className="fas fa-check-square"></i> SEO, accessibilité</li>
                 </ul>
                 <ul>
-                    <li><i className="fas fa-check-square"></i> Accessibilité</li>
-                    <li><i className="fas fa-check-square"></i> UI/UX Design</li>
                     <li><i className="fas fa-check-square"></i> Responsive design</li>
+                    <li><i className="fas fa-check-square"></i> UI/UX Design</li>
+                    <li><i className="fas fa-check-square"></i> Windows, Visual Studio Code</li>
                     <li><i className="fas fa-check-square"></i> Suite Adobe</li>
                 </ul>
             </div>
